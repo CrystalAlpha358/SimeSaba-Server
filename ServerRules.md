@@ -1,5 +1,5 @@
 # 〆さば鯖 ルールブック
-Version 1.3 *(Update: 2021/08/21)*
+Version 1.4 *(Update: 2021/08/25)*
 
 - *[08/02 21:12]* 投票により、名称は**〆さば鯖**に決定しました！投票ありがとうございました。
 
@@ -42,20 +42,20 @@ Version 1.3 *(Update: 2021/08/21)*
 
 - **使用できるコマンドは後述の[コマンド一覧](#使用可能なコマンド一覧)に記載しているもののみです**。
   - サバイバルに影響を与える可能性のある殆どのコマンドを禁止としましたが、**一部のコマンドは例外として許可しました**。  
-    例: /data, /difficulty, /spawnpoint, **/teleport**, **/tp**
+    例: `/data`, `/difficulty`, `/spawnpoint`, `/teleport`, `/tp`
 - あくまでも**サバイバルの補助**です。**過剰に使用しすぎないでください**。**他のプレイヤーの迷惑となる場合は、そのコマンドを禁止する場合があります**。
 - ***次の行為は厳禁です！注意しても改善しない場合はBANの対象です！***
   - **禁止されたコマンドを何らかの方法で実行する行為**。
     - ***最も重大な違反として扱います。違反したら二度と接続できないと思ってください。***
     - 普通にチャット欄から実行してエラーになった場合は、赤文字で「**[Permission denied](#Q-Permission-deniedって何): このコマンドを実行する権限がありません**」とエラーになるはずです。  
       プラグインコマンドの場合は独自でメッセージが設定されている場合があります(赤文字でpermissionとかdo not have〜とかだったら大体そう)。
-  - **//set などで他人の建築物を故意に破損あるいは完全に消去する行為**。***イタズラ目的の場合は一発でBANする場合もあります！***
+  - `//set`**などで他人の建築物を故意に破損あるいは完全に消去する行為**。***イタズラ目的の場合は一発でBANする場合もあります！***
   - **何らかの方法でのゲームモードの変更**。クリエイティブモードは使用禁止のほか、他のプレイヤーのモードを変更するなども禁止です。
-    - そもそも **/gamemode が使えないはずなので、前述のModの使用などの疑いもかけられます**。
+    - そもそも`/gamemode`**が使えないはずなので、前述のModの使用などの疑いもかけられます**。
     - これにより、**コマンドブロックやストラクチャーブロックなど、クリエイティブモード専用のアイテム**も使用できません。
   - **アイテムの大量入手等、自分のみ、または限られた人のみが得をするような行為**。あるいは、**他人が損をするような行為**。
     - 使うなら全体が得をするようなことにしましょう。さすがに**ダイヤモンド1ラージとかは避けてください**。
-- **実行したコマンドは全員から見ることができます**。実行結果ではなく、**入力したコマンド**(正確には"/"とそれ以降の文字列)です。
+- **実行したコマンドは全員から見ることができます**。実行結果ではなく、**入力したコマンド**(正確には`/`とそれ以降の文字列)です。
   - ワールドに入った瞬間見れるようになります。**コマンドが失敗しても、typoしていても、Enterした瞬間見られます**。
   - ちなみに**過去実行したコマンドも見ようと思えば誰でも見れます**。
   - さすがにサーバーのコンソールから実行したコマンドは見ることができません(プレイヤー扱いされないので)。
@@ -177,7 +177,7 @@ Version 1.3 *(Update: 2021/08/21)*
   - 簡易検証の結果、輝くイカスミで装飾された**光る文字は非常に大きな負荷を与えることがわかりました。メッセージボードなどで大量に使用すると迷惑になりかねませんので、控えてください**。  
     光らせない分には大きな負荷とはなりません。
 - **過剰にパーティクルを発生させないでください**。
-  - *これは主に /particle コマンドの話になります。* それ以外だとスプラッシュ(残留)ポーションを大量に投げるぐらいしか思いつきません。
+  - *これは主に*`/particle`*コマンドの話になります。* それ以外だとスプラッシュ(残留)ポーションを大量に投げるぐらいしか思いつきません。
   - JEとBEでパーティクルの描画に違いがあるようですが(少なくともこのサーバーにおいて)、どちらであってもパーティクルの描画はそこまで軽い処理ではないので、使いすぎるとfpsの低下に繋がります。
   - すべてを確認できたわけではありませんが、**BEはJEよりもパーティクルが大きく発生するようなので**(発生量が制御できていない？)**、なるべく控えめにしましょう**。
     - これは変換プロキシの現在の仕様が関係していると思われます。
@@ -238,7 +238,7 @@ Version 1.3 *(Update: 2021/08/21)*
 詳細は[Q&A](#Q-勝手に〇〇を共有しましたって出るんだけど)を参照してください。
 
 ### メンバーについて
-**/cprivate** など一部の保護には、別のプレイヤーをメンバーとして追加でき、一部のアクセスを許可することができます。  
+`/cprivate`など一部の保護には、別のプレイヤーをメンバーとして追加でき、一部のアクセスを許可することができます。  
 メンバーに追加された場合、インベントリの閲覧とアイテムの出し入れが許可されます。  
 また管理メンバーとして追加された場合、権限の編集とメンバーの追加・除去ができるようになります。  
 いずれの場合も、破壊を行うことはできません。
@@ -251,7 +251,7 @@ Version 1.3 *(Update: 2021/08/21)*
 
 ### 保護の解除方法
 **保護の解除はオーナーまたは管理者のみが行なえます。**
-1. **/cremove** を実行します。コマンドの詳細は[コマンド一覧](#LWC-Extended)を参照してください。
+1. `/cremove`を実行します。コマンドの詳細は[コマンド一覧](#LWC-Extended)を参照してください。
 1. チャット欄に「**保護を解除する対象をクリックしてください.**」と出たら、解除したいブロックを左または右クリック(BEの場合はタッチ)してください。
 1. アクションバーに「(ブロック)**の保護を解除しました.**」と出れば成功です。
 
@@ -274,8 +274,8 @@ Version 1.3 *(Update: 2021/08/21)*
 
 ## 使用可能なコマンド一覧
 凡例:
-- /コマンド名 `名前空間ID:コマンド名(正式)`
-  - エイリアス: コマンドのエイリアス
+- `/コマンド名` */名前空間ID:コマンド名*
+  - エイリアス: `コマンドのエイリアス`
   - 構文: `/コマンド名 <引数(必須)> [引数(任意)] <a|b (aあるいはb)> [a|b (aあるいはb、任意)]`
   - 説明
 
@@ -284,98 +284,98 @@ Version 1.3 *(Update: 2021/08/21)*
 ### Minecraft (バニラコマンド)
 詳細は[Minecraft Wiki][mcwiki-cmd]を参照してください。
 
-- /bossbar `/minecraft:bossbar`
-- /data `/minecraft:data`
-- /difficulty `/minecraft:difficulty`
-- /me `/minecraft:me`
-- /minecraft:help `/minecraft:help`
+- `/bossbar` */minecraft:bossbar*
+- `/data` */minecraft:data*
+- `/difficulty` */minecraft:difficulty*
+- `/me` */minecraft:me*
+- `/minecraft:help` */minecraft:help*
   - 先頭に`minecraft:`が必要です！
-- /particle `/minecraft:particle`
-- /playsound `/minecraft:playsound`
-- /recipe `/minecraft:recipe`
-- /say `/minecraft:say`
-- /spawnpoint `/minecraft:spawnpoint`
-- /stopsound `/minecraft:stopsound`
-- /team `/minecraft:team`
-- /teammsg `/minecraft:teammsg`
-- /teleport `/minecraft:teleport`
-- /tellraw `/minecraft:tellraw`
-- /title `/minecraft:title`
-- /tp `/minecraft:tp`
+- `/particle` */minecraft:particle*
+- `/playsound` */minecraft:playsound*
+- `/recipe` */minecraft:recipe*
+- `/say` */minecraft:say*
+- `/spawnpoint` */minecraft:spawnpoint*
+- `/stopsound` */minecraft:stopsound*
+- `/team` */minecraft:team*
+- `/teammsg` */minecraft:teammsg*
+- `/teleport` */minecraft:teleport*
+- `/tellraw` */minecraft:tellraw*
+- `/title` */minecraft:title*
+- `/tp` */minecraft:tp*
 
 ### Geyser
 殆どのコマンドはBEからのみ実行できます。
 
-- /geyser `/geyser-spigot:geyser`
+- `/geyser` */geyser-spigot:geyser*
   - 構文: `/geyser [サブコマンド]`  
     *JEでも実行可能*
   - メインコマンドです。サブコマンドを指定して実行することで操作可能です。  
     省略するとコマンドの一覧を表示します。
-- /geyser advancements
+- `/geyser advancements`
   - 構文: `/geyser advancements`
   - JEの進捗メニューを開きます。Xbox Liveの実績とは異なります。
-- /geyser list
+- `/geyser list`
   - 構文: `/geyser list`  
     *JEでも実行可能*
   - BEのプレイヤーを表示します。
-- /geyser offhand
+- `/geyser offhand`
   - 構文: `/geyser offhand`
   - アイテムをオフハンドスロットに移動します。既にスロットが埋まっている場合は入れ替えます。
-- /geyser statistics
+- `/geyser statistics`
   - 構文: `/geyser statistics`
   - JEの統計メニューを開きます。
 
 ### GSit
-- /gsit `/gsit:gsit`
-  - エイリアス: /sit
+- `/gsit` */gsit:gsit*
+  - エイリアス: `/sit`
   - 構文: `/gsit`
   - 見ているブロックに座ります。危険な場所には座ることができません。
-- /gsittoggle `/gsit:gsittoggle`
-  - エイリアス: /sittoggle
+- `/gsittoggle` */gsit:gsittoggle*
+  - エイリアス: `/sittoggle`
   - 構文: `/gsittoggle`
   - 右クリックで座るかどうか切り替えます。デフォルトは有効です。
-- /gcrawl `/gsit:gcrawl`
-  - エイリアス: /crawl
+- `/gcrawl` */gsit:gcrawl*
+  - エイリアス: `/crawl`
   - 構文: `/gcrawl`
   - クロールします。BEからは正常に動作していないように見えます(表示のみです)。
-- /gbellyflop `/gsit:gbellyflop`
-  - エイリアス: /bellyflop
+- `/gbellyflop` */gsit:gbellyflop*
+  - エイリアス: `/bellyflop`
   - 構文: `/gbellyflop`
   - うつ伏せになります。/gcrawl と違い移動はできません。
-- /glay `/gsit:glay`
-  - エイリアス: /lay
+- `/glay` */gsit:glay*
+  - エイリアス: `/lay`
   - 構文: `/glay`
   - 仰向けに寝ます。
 
 ### EditableSign
-- /editsign `/editablesign:editsign`
-  - エイリアス: /es
+- `/editsign` */editablesign:editsign*
+  - エイリアス: `/es`
   - 構文: `/editsign`
   - 看板編集の有効/無効を切り替えます。デフォルトは無効です。  
     編集は看板を手に持っていない状態でスニーク+右クリックで可能です。  
     BEでは動作しないようです。
 
 ### ChatManager
-- /colors `/chatmanager:colors`
+- `/colors` */chatmanager:colors*
   - 構文: `/colors`
   - チャットで使用できるカラーコードを表示します(`&` + 16進数値)。  
     JEではセクション(`§`)をチャット欄に直接入力できないことに注意してください。
-- /formats `/chatmanager:formats`
+- `/formats` */chatmanager:formats*
   - 構文: `/formats`
   - チャットで使用できる装飾コードを表示します(`&` + アルファベット)。  
     JEではセクション(`§`)をチャット欄に直接入力できないことに注意してください。
-- /list `/chatmanager:list`
+- `/list` */chatmanager:list*
   - 構文: `/list`
   - プレイヤーのリストを表示します。
-- /message `/chatmanager:message`
-  - エイリアス: /m, /w, /pm, /msg, /whisper, /tell, /privatemessage
+- `/message` */chatmanager:message*
+  - エイリアス: `/m`, `/w`, `/pm`, `/msg`, `/whisper`, `/tell`, `/privatemessage`
   - 構文: `/message <プレイヤー> <メッセージ>`
   - プレイヤーにプライベートメッセージを送信します。ターゲットセレクターは使用できません。
-- /ping `/chatmanager:ping`
+- `/ping` */chatmanager:ping*
   - 構文: `/ping [プレイヤー]`
   - プレイヤーのPing値(遅延)を表示します。省略時は自分のPing値を表示します。  
     BEのプレイヤーは値が大きくなるかもしれません。
-- /rules `/chatmanager:rules`
+- `/rules` */chatmanager:rules*
   - 構文: `/rules`
   - このルールブックへのURLを表示します。
 
@@ -391,82 +391,82 @@ Version 1.3 *(Update: 2021/08/21)*
 という流れで設定します。  
 保護の詳細は前述した[チェスト保護プラグインについて](#チェスト保護プラグインについて)を参照してください。
 
-- /lwc `/lwc:lwc`
+- `/lwc` */lwc:lwc*
   - 構文: `/lwc [引数...]`
   - 引数を指定して実行することで操作可能です。単体で実行するとヘルプを表示します。
-- /cpublic `/lwc:cpublic` (/lwc -create public)
-  - エイリアス: /lwc -c public
+- `/cpublic` */lwc:cpublic* (/lwc -create public)
+  - エイリアス: `/lwc -c public`
   - 構文: `/cpublic`
   - 共有保護を設定します。既に保護が設定されている場合は使用できません。
-- /cprivate `/lwc:cprivate` (/lwc -create private)
-  - エイリアス: /lwc -c private, /lock
+- `/cprivate` */lwc:cprivate* (/lwc -create private)
+  - エイリアス: `/lwc -c private`, `/lock`
   - 構文: `/cprivate [プレイヤー | -プレイヤー | @プレイヤー ...]`
   - 個人保護を設定します。既に保護が設定されている場合は使用できません。  
     メンバーとして追加するプレイヤーを指定できます。  
     先頭に`-`を付けると、指定したプレイヤーをメンバーから除去します。  
     先頭に`@`を付けると、指定したプレイヤーを管理メンバーとして追加します。  
     プレイヤーは複数同時に指定できます。
-- /cpassword `/lwc:cpassword` (/lwc -create password)
-  - エイリアス: /lwc -c password
+- `/cpassword` */lwc:cpassword* (/lwc -create password)
+  - エイリアス: `/lwc -c password`
   - 構文: `/cpassword <パスワード>`
   - パスワード保護を設定します。
-- /cdonation `/lwc:cdonation` (/lwc -create donation)
-  - エイリアス: /lwc -c donation
+- `/cdonation` */lwc:cdonation* (/lwc -create donation)
+  - エイリアス: `/lwc -c donation`
   - 構文: `/cdonation`
   - 寄付保護を設定します。
-- /cdisplay `/lwc:cdisplay` (/lwc -create display)
-  - エイリアス: /lwc -c display
+- `/cdisplay` */lwc:cdisplay* (/lwc -create display)
+  - エイリアス: `/lwc -c display`
   - 構文: `/cdisplay`
   - 表示保護を設定します。
-- /cmodify `/lwc:cmodify` (/lwc -modify)
-  - エイリアス: /lwc -m
+- `/cmodify` */lwc:cmodify* (/lwc -modify)
+  - エイリアス: `/lwc -m`
   - 構文: `/cmodify <プレイヤー | -プレイヤー | @プレイヤー ...>`
   - 既存の保護を編集します。保護が設定されている場合にのみ使用できます。  
     メンバーとして追加するプレイヤーを指定できます。  
     先頭に`-`を付けると、指定したプレイヤーをメンバーから除去します。  
     先頭に`@`を付けると、指定したプレイヤーを管理メンバーとして追加します。  
     プレイヤーは複数同時に指定できます。
-- /cremove `/lwc:cremove` (/lwc -remove)
-  - エイリアス: /lwc -r
+- `/cremove` */lwc:cremove* (/lwc -remove)
+  - エイリアス: `/lwc -r`
   - 構文: `/cremove`
   - 設定されている保護を削除します。
-- /cunlock `/lwc:cunlock` (/lwc -unlock)
-  - エイリアス: /lwc -u
+- `/cunlock` */lwc:cunlock* (/lwc -unlock)
+  - エイリアス: `/lwc -u`
   - 構文: `/cunlock <パスワード>`
   - パスワード保護を解除するためのパスワードを指定します。ログアウトするまで有効です。
-- /cinfo `/lwc:cinfo` (/lwc -info)
-  - エイリアス: /lwc -i
+- `/cinfo` */lwc:cinfo* (/lwc -info)
+  - エイリアス: `/lwc -i`
   - 構文: `/cinfo`
   - 保護の情報を表示します。
-- /climits `/lwc:climits` (/lwc -info limits)
-  - エイリアス: /lwc -i limits
+- `/climits` */lwc:climits* (/lwc -info limits)
+  - エイリアス: `/lwc -i limits`
   - 構文: `/climits [プレイヤー]`
   - 所有している保護の数と上限数を表示します。対象のプレイヤーを指定できます。
-- /credstone `/lwc:credstone` (/lwc flag redstone)
+- `/credstone` */lwc:credstone* (/lwc flag redstone)
   - 構文: `/credstone <on|off>`
   - レッドストーンによる開閉を許可するかどうか設定します。onにすると拒否します。  
     ドア、トラップドア、フェンスゲートにのみ使用可能です。  
     デフォルトはoffです。
-- /cautoclose `/lwc:cautoclose` (/lwc flag autoclose)
+- `/cautoclose` */lwc:cautoclose* (/lwc flag autoclose)
   - 構文: `/cautoclose <on|off>`
   - 3秒後に自動的に閉じるかどうか設定します。onにすると有効になります。  
     ドア、トラップドア、フェンスゲートにのみ使用可能です。  
     デフォルトはoffです。
-- /chopper `/lwc:chopper` (/lwc flag hopper)
+- `/chopper` */lwc:chopper* (/lwc flag hopper)
   - 構文: `/chopper <on|off>`
   - ホッパーを許可するかどうか設定します。offにすると許可します。  
     この機能は実質的にhopperinとhopperoutの両方をonにすることと同じであり、設置を他人に許可するものではありません。  
     チェスト、トラップチェストやかまどなどにのみ使用可能です。  
     デフォルトはoffです。
-- /lwc flag hopperin `/lwc:lwc ...`
+- `/lwc flag hopperin` */lwc:lwc ...*
   - 構文: `/lwc flag hopperin <on|off>`
   - ホッパーによるアイテムの追加を許可するかどうか設定します。offにすると許可します。  
     デフォルトはoffです。
-- /lwc flag hopperout `/lwc:lwc ...`
+- `/lwc flag hopperout` */lwc:lwc ...*
   - 構文: `/lwc flag hopperout <on|off>`
   - ホッパーによるアイテムの取り出しを許可するかどうか設定します。offにすると許可します。  
     デフォルトはoffです。
-- /cpersist `/lwc:cpersist` (/lwc mode persist)
+- `/cpersist` */lwc:cpersist* (/lwc mode persist)
   - 構文: `/cpersist`
   - 最後に実行したコマンドを保持し、いくつかの別のブロックでコマンドを再実行できます(再入力する必要がなくなります)。  
     実行するたびにオン・オフが切り替わります。**オフにするのを忘れないでください！**
@@ -476,36 +476,36 @@ Version 1.3 *(Update: 2021/08/21)*
 良さそうなものがなかったら自作することになる可能性もあります。  
 「Java Edition」ですからプラグインもJavaですね。Javaなんて触ったことない。誰か教えて。
 
-- /tm scoreboard toggle `/titlemanager:tm ...`
-  - エイリアス: /tm sb toggle, /titlemanager scoreboard toggle, /titlemanager sb toggle
+- `/tm scoreboard toggle` */titlemanager:tm ...*
+  - エイリアス: `/tm sb toggle`, `/titlemanager scoreboard toggle`, `/titlemanager sb toggle`
   - 構文: `/tm scoreboard toggle`
   - 右側サイドバーの情報表示/非表示を切り替えます。
 
 ### WorldEdit
 [ドキュメント](https://worldedit.enginehub.org/en/latest/commands/)
 
-- /undo `/worldedit:undo`
-  - エイリアス: //undo
+- `/undo` */worldedit:undo*
+  - エイリアス: `//undo`
   - 構文: `/undo [回数] [プレイヤー]`
   - 指定したプレイヤーがWorldEditで行った操作を回数分取り消します。  
     省略時はそれぞれ1と自分自身を指定したことになります。
-- /redo `/worldedit:redo`
-  - エイリアス: //redo
+- `/redo` */worldedit:redo*
+  - エイリアス: `//redo`
   - 構文: `/redo [回数] [プレイヤー]`
   - 指定したプレイヤーが行った /undo を回数分取り消します(操作をやり直します)。  
     省略時はそれぞれ1と自分自身を指定したことになります。
-- /gmask `/worldedit:gmask`
-  - エイリアス: //gmask
+- `/gmask` */worldedit:gmask*
+  - エイリアス: `//gmask`
   - 構文: `/gmask [ブロック[,ブロック[, ...]]]`
   - 指定したブロックをグローバルマスクに設定します。`,`(コンマ)区切りで複数設定が可能です。  
     設定すると、WorldEditコマンドの影響を指定したブロックに絞ることができます。  
     ブロックを省略すると解除できます。
-- /toggleplace `/worldedit:toggleplace`
-  - エイリアス: //toggleplace
+- `/toggleplace` */worldedit:toggleplace*
+  - エイリアス: `//toggleplace`
   - 構文: `/toggleplace`
   - 一部のコマンドについて、基点を自分自身の位置とするか、地点1(開始地点)とするか切り替えます。
-- /searchitem `/worldedit:searchitem`
-  - エイリアス: //searchitem, //l, //search
+- `/searchitem` */worldedit:searchitem*
+  - エイリアス: `//searchitem`, `//l`, `//search`
   - 構文: `/searchitem [-bi] [-p <ページ>] <クエリ[ ...]>`
   - クエリからアイテムIDを部分一致で検索し、ヒットしたアイテム名とアイテムIDを表示します。クエリは3文字以上でなければいけません。  
     スペースで区切った場合はAND検索を行いますが、語句は順番通りである必要があります。  
@@ -513,90 +513,99 @@ Version 1.3 *(Update: 2021/08/21)*
     - `-b`: 検索対象をブロックに限定します。
     - `-i`: 検索対象をアイテムに限定します。
     - `-p <ページ>`: 複数ページに分割された場合に、指定したページを表示できます。
-- //pos1 `/worldedit:/pos1`
+- `/thru` */worldedit:thru*
+  - 構文: `/thru`
+  - 視点の先にある壁をすり抜けます。  
+    すり抜けた先が危険な場合(空中など)は、安全なブロックの上に移動されます。
+- `/jumpto` */worldedit:jumpto*
+  - エイリアス: `/j`
+  - 構文: `/jumpto`
+  - 視点の先にあるブロックの上へテレポートします。  
+    視点の先が壁や天井の場合は、安全なブロックの上(壁の上など)に移動されます。
+- `//pos1` */worldedit:/pos1*
   - 構文: `//pos1 [x座標,y座標,z座標]`
   - 指定した座標を開始地点として設定します。**座標は`,`(コンマ)区切りです！**  
     省略時は自分の立っている場所が設定されます。
-- //pos2 `/worldedit:/pos2`
+- `//pos2` */worldedit:/pos2*
   - 構文: `//pos2 [x座標,y座標,z座標]`
   - 指定した座標を終了地点として設定します。**座標は`,`(コンマ)区切りです！**  
     省略時は自分の立っている場所が設定されます。
-- //hpos1 `/worldedit:/hpos1`
+- `//hpos1` */worldedit:/hpos1*
   - 構文: `//hpos1`
   - 見ているブロックを開始地点として設定します。
-- //hpos2 `/worldedit:/hpos2`
+- `//hpos2` */worldedit:/hpos2*
   - 構文: `//hpos2`
   - 見ているブロックを終了地点として設定します。
-- //contract `/worldedit:/contract`
+- `//contract` */worldedit:/contract*
   - 構文: `//contract <縮小量> [反対側縮小量] [方向]`
   - 範囲設定を縮小量分縮小します。反対側縮小量は縮小する方向と反対側の方向への縮小量を指定できます。  
     [方向](#補足-指定できる方向について)を指定できますが、北東のような斜め方向は指定できません。省略時は自分の向いている方向へ縮小します。
-- //shift `/worldedit:/shift`
+- `//shift` */worldedit:/shift*
   - 構文: `//shift <移動量> [方向]`
   - 範囲設定を移動量分移動します。  
     [方向](#補足-指定できる方向について)を指定できますが、北東のような斜め方向は指定できません。省略時は自分の向いている方向へ移動します。
-- //outset `/worldedit:/outset`
+- `//outset` */worldedit:/outset*
   - 構文: `//outset [-hv] <拡張量>`
   - 範囲設定を全方向に拡張量分拡張します。
     - `-h`: 水平方向(X/Z軸方向)にのみ拡張します。
     - `-v`: 垂直方向(Y軸方向)にのみ拡張します。
-- //inset `/worldedit:/inset`
+- `//inset` */worldedit:/inset*
   - 構文: `//inset [-hv] <縮小量>`
   - 範囲設定を全方向に縮小量分縮小します。
     - `-h`: 水平方向(X/Z軸方向)にのみ縮小します。
     - `-v`: 垂直方向(Y軸方向)にのみ縮小します。
-- //size `/worldedit:/size`
+- `//size` */worldedit:/size*
   - 構文: `//size [-c]`
   - 選択範囲に関する情報を表示します。
     - `-c`: 選択範囲ではなく、クリップボード内の情報を表示します。
-- //count `/worldedit:/count`
+- `//count` */worldedit:/count*
   - 構文: `//count <ブロック>`
   - 選択範囲内の指定したブロックの数をカウントします。
-- //distr `/worldedit:/distr`
+- `//distr` */worldedit:/distr*
   - 構文: `//distr [-cd] [-p <ページ]`
   - 選択範囲内のブロック分布(範囲内の全ブロック数・それぞれのブロック数と割合)を表示します。
     - `-c`: クリップボード内の分布を表示します。
     - `-d`: ブロック状態の違うブロックを別のブロックとして扱います。
     - `-p <ページ>`: 複数ページに分割された場合に、指定したページを表示できます。
-- //sel `/worldedit:/sel`
-  - エイリアス: /;, //desel, //deselect
+- `//sel` */worldedit:/sel*
+  - エイリアス: `/;`, `//desel`, `//deselect`
   - 構文: `//sel [-d] [セレクタ]`
   - 範囲設定のセレクタを変更します。全て省略するか、`-d`を指定すると範囲設定を解除します。  
     セレクタは`cuboid`(直方体)、`extend`(拡張直方体)、`poly`(多角柱)、`ellipsoid`(楕円体)、`sphere`(球)、`cyl`(円柱)、`convex`・`hull`・`polyhedron`(凸多面体)の他、一覧を表示する`list`も指定できます。  
     この文書では`cuboid`を想定しています。他のセレクタについては後日追記予定です。
-- //expand `/worldedit:/expand`
+- `//expand` */worldedit:/expand*
   - 構文1: `//expand <拡張量> [反対側拡張量] [方向]`
   - 構文2: `//expand vert [高さ]`
   - 範囲設定を拡張量分拡張します。反対側拡張量は拡張する方向と反対側の方向への拡張量を指定できます。  
     [方向](#補足-指定できる方向について)を指定できますが、北東のような斜め方向は指定できません。省略時は自分の向いている方向へ縮小します。  
     構文2のように`vert`を指定した場合、上下方向に高さ分拡張します。省略時は低度限界から高度限界まで垂直に拡張します。
-- //set `/worldedit:/set`
+- `//set` */worldedit:/set*
   - 構文: `//set <ブロック>`
   - 選択範囲に指定したブロックを設置します。
-- //line `/worldedit:/line`
+- `//line` */worldedit:/line*
   - 構文: `//line [-h] <ブロック> [半径]`
   - 開始地点と終了地点を結ぶ線分上にブロックを設置します。半径を省略すると、0を指定したことになります。
     - `-h`: 半径を指定した際に中空になります。
-- //replace `/worldedit:/replace`
-  - エイリアス: //re, //rep
+- `//replace` */worldedit:/replace*
+  - エイリアス: `//re`, `//rep`
   - 構文: `//replace [置換対象] <ブロック>`
   - 選択範囲内の空気を除く全てのブロックを指定したブロックに置き換えます。  
     置換対象を指定すると、そのブロックのみを置き換えます。
-- //overlay `/worldedit:/overlay`
+- `//overlay` */worldedit:/overlay*
   - 構文: `//overlay <ブロック>`
   - 選択範囲内のブロックの上に指定したブロックを重ねるように設置します。
-- //center `/worldedit:/center`
-  - エイリアス: //middle
+- `//center` */worldedit:/center*
+  - エイリアス: `//middle`
   - 構文: `//center <ブロック>`
   - 選択範囲の中心に指定したブロックを設置します。ブロック数が偶数である場合は2ブロック(以上)設置されます。
-- //walls `/worldedit:/walls`
+- `//walls` */worldedit:/walls*
   - 構文: `//walls <ブロック>`
   - 選択範囲の四方に指定したブロックを設置します(壁を設置します)。
-- //faces `/worldedit:/faces`
-  - エイリアス: //outline
+- `//faces` */worldedit:/faces*
+  - エイリアス: `//outline`
   - 構文: `//faces <ブロック>`
   - 選択範囲の側面と上面・下面に指定したブロックを設置します(壁・床・天井を設置します)。
-- //move `/worldedit:/move`
+- `//move` */worldedit:/move*
   - 構文: `//move [-abes] [移動量] [方向] [ブロック] [-m <ブロック>]`
   - 選択範囲を移動量分移動します。省略時は1ブロック移動します。  
     移動する[方向](#補足-指定できる方向について)を指定できます。省略時は自分の向いている方向です。  
@@ -606,7 +615,7 @@ Version 1.3 *(Update: 2021/08/21)*
     - `-e`: エンティティも移動します。
     - `-s`: 範囲設定も移動します(再選択する必要がなくなります)。
     - `-m <ブロック>`: 指定したブロック以外が移動されずに空気になります。
-- //stack `/worldedit:/stack`
+- `//stack` */worldedit:/stack*
   - 構文: `//stack [-abers] [回数] [方向] [-m <ブロック>]`
   - 選択範囲を回数分積み重ねます(構造体をコピーして並べます)。省略時は1ブロックコピーします。  
     コピーする[方向](#補足-指定できる方向について)を指定できます。省略時は自分の向いている方向です。
@@ -616,49 +625,49 @@ Version 1.3 *(Update: 2021/08/21)*
     - `-r`: ブロック単位でコピーします。コピー元とコピー先が重なっていてはいけません。
     - `-s`: 範囲設定を最後にコピーされた場所へ移動します。
     - `-m <ブロック>`: 指定したブロック以外がコピーされずに空気になります。
-- //hcyl `/worldedit:/hcyl`
+- `//hcyl` */worldedit:/hcyl*
   - 構文: `//hcyl <ブロック> <半径[,X軸半径]> [高さ]`
   - 指定したブロックで指定した半径及び高さの中空の円柱を生成します。高さを省略した場合は1になります。  
     半径の後に`,`(カンマ)で区切ってX軸(東西方向)半径を指定することで、楕円柱を生成できます。
-- //cyl `/worldedit:/cyl`
+- `//cyl` */worldedit:/cyl*
   - 構文: `//cyl [-h] <ブロック> <半径[,X軸半径]> [高さ]`
   - 指定したブロックで指定した半径及び高さの円柱を生成します。高さを省略した場合は1になります。  
     半径の後に`,`(カンマ)で区切ってX軸(東西方向)半径を指定することで、楕円柱を生成できます。
     - `-h`: 中空にします。//hcyl と同じ動作になります。
-- //hsphere `/worldedit:/hsphere`
+- `//hsphere` */worldedit:/hsphere*
   - 構文: `//hsphere [-r] <ブロック> <半径[,Y軸半径,X軸半径]>`
   - 指定したブロックで指定した半径の中空の球を生成します。  
     半径の後に`,`(カンマ)で区切ってY軸半径(高さ)とX軸(東西方向)半径を指定することで、楕円体を生成できます。
     - `-r`: 基点が球の底面になるように生成します。
-- //sphere `/worldedit:/sphere`
+- `//sphere` */worldedit:/sphere*
   - 構文: `//sphere [-hr] <ブロック> <半径[,Y軸半径,X軸半径]>`
   - 指定したブロックで指定した半径の球を生成します。  
     半径の後に`,`(カンマ)で区切ってY軸半径(高さ)とX軸(東西方向)半径を指定することで、楕円体を生成できます。
     - `-h`: 中空にします。//hsphere と同じ動作になります。
     - `-r`: 基点が球の底面になるように生成します。
-- //hpyramid `/worldedit:/hpyramid`
+- `//hpyramid` */worldedit:/hpyramid*
   - 構文: `//hpyramid <ブロック> <サイズ>`
   - 指定したブロックで指定したサイズの中空のピラミッドを生成します。  
     サイズは基点のブロックを1として計算します。
-- //pyramid `/worldedit:/pyramid`
+- `//pyramid` */worldedit:/pyramid*
   - 構文: `//pyramid [-h] <ブロック> <サイズ>`
   - 指定したブロックで指定したサイズのピラミッドを生成します。  
     サイズは基点のブロックを1として計算します。
     - `-h`: 中空にします。//hpyramid と同じ動作になります。
-- //copy `/worldedit:/copy`
+- `//copy` */worldedit:/copy*
   - 構文: `//copy [-be] [-m <ブロック>]`
   - 選択範囲をWorldEditのクリップボードにコピーします。自分との位置関係が含まれることに注意してください。  
     - `-b`: バイオームもコピーします。
     - `-e`: エンティティもコピーします。
     - `-m <ブロック>`: 指定したブロック以外が空気としてコピーされます。
-- //cut `/worldedit:/cut`
+- `//cut` */worldedit:/cut*
   - 構文: `//cut [-be] [ブロック] [-m <ブロック>]`
   - 選択範囲をWorldEditのクリップボードにコピーし、範囲内に空気を設置します。自分との位置関係が含まれることに注意してください。  
     ブロックを指定すると、空気の代わりに指定したブロックを設置します。
     - `-b`: バイオームもコピーします。元のバイオームは影響を受けません。
     - `-e`: エンティティもコピーします。範囲内からは消去されます。
     - `-m <ブロック>`: 指定したブロック以外が空気としてコピーされます。
-- //paste `/worldedit:/paste`
+- `//paste` */worldedit:/paste*
   - 構文: `//paste [-abenos] [-m <ブロック>]`
   - クリップボードから構造体を貼り付けます。プレイヤーとの位置関係に注意してください。  
     **自分の向きを変えても構造体の向きは変わりませんので、//rotate で回転してから貼り付けてください**。
@@ -669,53 +678,53 @@ Version 1.3 *(Update: 2021/08/21)*
     - `-o`: 元の位置に貼り付けます。
     - `-s`: 範囲を再設定します(再選択する必要がなくなります)。
     - `-m <ブロック>`: 指定したブロック以外が貼り付けられずに空気になります。
-- //rotate `/worldedit:/rotate`
+- `//rotate` */worldedit:/rotate*
   - 構文: `//rotate <Y軸回転量> [X軸回転量] [Z軸回転量]`
   - クリップボード内の構造体を時計回りに回転します。回転はコピー時のプレイヤーの(構造体上での)場所が中心になります。  
     それぞれの回転量は負数も指定できます。補間は行われませんので、角度は90の倍数である必要があります。
     - Y軸: 縦軸(最もよく使われる)
     - X軸: 西を正面とした東西方向の横軸
     - Z軸: 北を正面とした南北方向の横軸
-- //flip `/worldedit:/flip`
+- `//flip` */worldedit:/flip*
   - 構文: `//flip [方向]`
   - クリップボード内の構造体を反転します。[方向](#補足-指定できる方向について)を指定できますが、北東のような斜め方向は指定できません。
-- /clearclipboard `/worldedit:clearclipboard`
+- `/clearclipboard` */worldedit:clearclipboard*
   - 構文: `/clearclipboard`
   - クリップボードの内容を削除します。
-- //fill `/worldedit:/fill`
+- `//fill` */worldedit:/fill*
   - 構文: `//fill <ブロック> <半径> [深さ]`
   - 指定した半径及び深さの円柱形状の範囲内の空気を指定したブロックで満たします。**液体での使用が想定されています**。  
     基点が水面になります。
-- //fillr `/worldedit:/fillr`
+- `//fillr` */worldedit:/fillr*
   - 構文: `//fillr <ブロック> <半径> [深さ]`
   - 指定した半径及び深さの半球形状の範囲内の空気を指定したブロックで満たします。**液体での使用が想定されています**。  
     基点が水面になります。
-- //drain `/worldedit:/drain`
+- `//drain` */worldedit:/drain*
   - 構文: `//drain [-w] <半径>`
   - 指定した半径の球形状の範囲内の液体を空気に置き換えます。基点が液体に接触している必要があります。
     - `-w`: 水没したブロックからも水を抜きます。
-- /green `/worldedit:green`
-  - エイリアス: //green
+- `/green` */worldedit:green*
+  - エイリアス: `//green`
   - 構文: `/green [-f] [半径] [高さ]`
   - 指定した半径及び高さの円柱形状の範囲内の最も高い土ブロックを草ブロックに置換します。  
     基点のブロック上面を1とするため、高さに1を指定すると基点より1高いブロックも含まれます。0以下の値は1と同じ動作です。  
     半径省略時は10、高さ省略時は無制限になります。
     - `-f`: 粗い土も含みます。
-- /extinguish `/worldedit:extinguish`
-  - エイリアス: //ex, //ext, //extinguish, /ex, /ext
+- `/extinguish` */worldedit:extinguish*
+  - エイリアス: `//ex`, `//ext`, `//extinguish`, `/ex`, `/ext`
   - 構文: `/extinguish [半径]`
   - 指定した半径の内接球を持つ立方体の範囲内の火を消化します。省略時は同じワールド内の全ての火を消化します。  
     半径は基点を1として計算します。
-- /fixlava `/worldedit:fixlava`
-  - エイリアス: //fixlava
+- `/fixlava` */worldedit:fixlava*
+  - エイリアス: `//fixlava`
   - 構文: `/fixlava <半径>`
   - 指定した半径の球形状の範囲内の溶岩流を再計算します。これにより、溶岩流を修正できる可能性があります。
-- /fixwater `/worldedit:fixwater`
-  - エイリアス: //fixwater
+- `/fixwater` */worldedit:fixwater*
+  - エイリアス: `//fixwater`
   - 構文: `/fixwater <半径>`
   - 指定した半径の球形状の範囲内の水流を再計算します。これにより、水流を修正できる可能性があります。
-- //calculate `/worldedit:/calculate`
-  - エイリアス: //calc, //eval, //evaluate, //solve
+- `//calculate` */worldedit:/calculate*
+  - エイリアス: `//calc`, `//eval`, `//evaluate`, `//solve`
   - 構文: `//calculate <式...>`
   - 計算機です。与えられた計算式を計算し、結果を表示します。
 
@@ -739,16 +748,66 @@ Version 1.3 *(Update: 2021/08/21)*
 | northwest | 北西           |
 
 ### PaperMC (サーバー)
-- /mspt `/paper:mspt`
+- `/mspt` */paper:mspt*
   - 構文: `/mspt`
   - サーバーのMSPT(MilliSeconds Per Tick、1Tickあたりのミリ秒)を表示します。  
     左から (直近5秒間の平均/最小/最大), (10秒間の平均/最小/最大), (1分間の平均/最小/最大) です。  
     詳しくは[Q&A](#Q-MSPTって何)を参照してください。
-- /tps `/spigot:tps`
+- `/tps` */spigot:tps*
   - 構文: `/tps`
   - サーバーのTPS(Ticks Per Secound、1秒あたりのTick数)を表示します。  
     左から (直近1分間の平均), (5分間の平均), (10分間の平均) です。  
     詳しくは[Q&A](#Q-TPSって何)を参照してください。
+
+### ショートカット
+このサーバーで使用できるショートカットコマンドです。  
+頻繁に追加・変更されるため最新ではない可能性があります。ご了承ください。  
+***各種テレポートコマンドはオーバーワールド以外での動作を保証しません！***
+
+- `/returntospawn`
+  - エイリアス: `/q`
+  - 構文: `/returntospawn`
+  - 元のコマンド: `/tp @s[type=player] -78.5 72.1 65.5 0.0 0.0`
+  - ワールドの初期スポーン地点(から南東に1ブロックずれた場所)の座標へ移動します。
+- `/qq`
+  - 構文: `/qq`
+  - 元のコマンド: `/tp @s[type=player] -154.5 66.1 240.5 0.0 0.0`
+  - 倉庫の前へ移動します。
+- `/qqq`
+  - 構文: `/qqq`
+  - 元のコマンド: `/tp @s[type=player] -197.5 79.1 287.5 90.0 0.0`
+  - 村へ移動します。
+- `/qw`
+  - 構文: `/qw`
+  - 元のコマンド: `/tp @s[type=player] -9.5 66.1 199.5 180.0 25.0`
+  - ゴーレムトラップへ移動します。
+- `/qe`
+  - 構文: `/qe`
+  - 元のコマンド: `/tp @s[type=player] -80.5 1.6 100.5 0.0 0.0`
+  - スライムトラップへ移動します。
+- `/qr`
+  - 構文: `/qr`
+  - 元のコマンド: `/tp @s[type=player] -21.0 40.1 20.0 -90.0 42.0`
+  - スケルトントラップへ移動します。
+- `/z`
+  - 構文: `/z`
+  - 元のコマンド: `/titlemanager scoreboard toggle`
+  - 右側サイドバーの表示・非表示を切り替えます。  
+    詳細は[こちら](#TitleManager)をご覧ください。
+- `/f`
+  - 構文: `/f`
+  - 元のコマンド: `/geyser offhand`
+  - アイテムをオフハンドスロットと入れ替えます。  
+    詳細は[こちら](#Geyser)をご覧ください。
+- `/l`
+  - 構文: `/l`
+  - 元のコマンド: `/geyser advancements`
+  - JEの進捗メニューを表示します。  
+    詳細は[こちら](#Geyser)をご覧ください。
+- `/@`
+  - 構文: `/@`
+  - 元のコマンド: `/tp @s[type=player] 627.5 63.1 -30.5 -90.0 0.0`
+  - X:627, Y:63, Z:-31 へ移動します。詳細は省略します。
 
 # Q&A
 よくありそうな質問だったり、書ききれなかったことを書いていきます。  
