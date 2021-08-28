@@ -1,9 +1,13 @@
-# Minecraft: Java Edition 1.17.1 進捗一覧
-*Update: 2021/08/26*
-
-Minecraft: Java Edition 1.17.1時点での進捗・挑戦一覧です。  
+# Minecraft: Java Edition 1.17.1 各種メッセージ一覧
+Minecraft: Java Edition 1.17.1時点での各種メッセージ一覧です。  
 英語名と日本語名の両方を載せています。  
-長いのでブラウザの検索機能の使用をおすすめします。
+ブラウザの検索機能の使用をおすすめします。
+
+Java Edition内の言語ファイルを元に自動生成したものを一部手動で変更を加えて掲載しています。  
+一部重複等あるかもしれませんがご了承ください。
+
+# 進捗一覧
+*Update: 2021/08/26*
 
 ## Minecraft
 + 英語名: **Minecraft**
@@ -556,3 +560,312 @@ Minecraft: Java Edition 1.17.1時点での進捗・挑戦一覧です。
 + カテゴリ: 農業 - 一般
 + 名前空間ID: `minecraft:husbandry/kill_axolotl_target`
 + ウーパールーパーと共に戦い、勝利する
+
+
+# 死亡メッセージ一覧
+*Update: 2021/08/28*
+
+並びは 2021/08/28 09:50 時点の[Minecraft Wiki(英語版)](https://minecraft.fandom.com/wiki/Death_messages)を元にしています。  
+**ゲーム内で未使用のメッセージが含まれています。**
+
+[mcpe]: https://bugs.mojang.com/browse/MCPE-28723
+
+## 矢
+#### `A`は`B`に射抜かれた
+- 英語名: **`A` was shot by `B`**
+
+#### `A`は`B`の`X`で射抜かれた
+- 英語名: **`A` was shot by `B` using `X`**
+
+## 雪玉
+#### `A`は`B`によってぺしゃんこにされた
+- 英語名: **`A` was pummeled by `B`**
+
+#### `A`は`B`の`X`でぺしゃんこにされた
+- 英語名: **`A` was pummeled by `B` using `X`**
+
+## サボテン
+#### `A`はサボテンが刺さって死んだ
+- 英語名: **`A` was pricked to death**
+
+#### `A`は`B`から逃げようとしてサボテンにぶつかった
+- 英語名: **`A` walked into a cactus whilst trying to escape `B`**
+
+## 溺没
+#### `A`は溺れ死んだ
+- 英語名: **`A` drowned**
+
+#### `A`は`B`から逃れようとして溺れ死んだ
+- 英語名: **`A` drowned whilst trying to escape `B`**
+
+## エリトラ
+#### `A`は運動エネルギーを体験した
+- 英語名: **`A` experienced kinetic energy**
+
+#### `A`は`B`から逃れようとして運動エネルギーを体験した
+- 英語名: **`A` experienced kinetic energy whilst trying to escape `B`**
+
+## 爆発
+#### `A`は爆発に巻き込まれた
+- 英語名: **`A` blew up**
+
+#### `A`は`B`に爆破された
+- 英語名: **`A` was blown up by `B`**
+
+#### `A`は`B`の`X`で爆破された
+- 英語名: **`A` was blown up by `B` using `X`**
+
+#### `A`は[\[ゲームの仕様\]][mcpe]に殺された
+- 英語名: **`A` was killed by [\[Intentional Game Design\]][mcpe]**
+- `[`〜`]`は公式バグトラッカー内の[MCPE-28723][mcpe]へのリンクになっている
+
+## 落下
+#### `A`は地面に強く激突した
+- 英語名: **`A` hit the ground too hard**
+
+#### `A`は`B`から逃れようとして地面に強く激突した
+- 英語名: **`A` hit the ground too hard whilst trying to escape `B`**
+
+#### `A`は高い所から落ちた
+- 英語名: **`A` fell from a high place**
+
+#### `A`ははしごから落ちた
+- 英語名: **`A` fell off a ladder**
+
+#### `A`はツタから滑り落ちた
+- 英語名: **`A` fell off some vines**
+
+#### `A`はしだれツタから滑り落ちた
+- 英語名: **`A` fell off some weeping vines**
+
+#### `A`はねじれツタから滑り落ちた
+- 英語名: **`A` fell off some twisting vines**
+
+#### `A`は足場から滑り落ちた
+- 英語名: **`A` fell off scaffolding**
+
+#### `A`は登る途中で落ちた
+- 英語名: **`A` fell while climbing**
+
+#### `A`は鍾乳石に突き刺さった
+- 英語名: **`A` was impaled on a stalagmite**
+
+#### `A`は`B`と戦いながら鍾乳石に突き刺さった
+- 英語名: **`A` was impaled on a stalagmite whilst fighting `B`**
+
+## 落下中のブロック
+#### `A`は落下してきた金床に押しつぶされた
+- 英語名: **`A` was squashed by a falling anvil**
+
+#### `A`は`B`と戦いながら落ちてきた金床に押しつぶされた
+- 英語名: **`A` was squashed by a falling anvil whilst fighting `B`**
+
+#### `A`は落下してきたブロックに押しつぶされた
+- 英語名: **`A` was squashed by a falling block**
+
+#### `A`は`B`と戦いながら落ちてきたブロックに押しつぶされた
+- 英語名: **`A` was squashed by a falling block whilst fighting `B`**
+
+#### `A`は落ちてきた鍾乳石に串刺しにされた
+- 英語名: **`A` was skewered by a falling stalactite**
+
+#### `A`は`B`と戦いながら落ちてきた鍾乳石に串刺しにされた
+- 英語名: **`A` was skewered by a falling stalactite whilst fighting `B`**
+
+## 炎
+#### `A`は炎に巻かれた
+- 英語名: **`A` went up in flames**
+
+#### `A`は`B`と戦いながら火の中へ踏み入った
+- 英語名: **`A` walked into fire whilst fighting `B`**
+
+#### `A`はこんがりと焼けた
+- 英語名: **`A` burned to death**
+
+#### `A`は`B`と戦いながらカリカリに焼けた
+- 英語名: **`A` was burnt to a crisp whilst fighting `B`**
+
+## ロケット花火
+#### `A`は花火の爆発に巻き込まれた
+- 英語名: **`A` went off with a bang**
+
+#### `A`は`B`の`X`が発射した花火の爆発に巻き込まれた
+- 英語名: **`A` went off with a bang due to a firework fired from `X` by `B`**
+
+## 溶岩
+#### `A`は溶岩遊泳を試みた
+- 英語名: **`A` tried to swim in lava**
+
+#### `A`は`B`から逃れようと溶岩遊泳を試みた
+- 英語名: **`A` tried to swim in lava to escape `B`**
+
+## 落雷
+#### `A`は雷に打たれた
+- 英語名: **`A` was struck by lightning**
+
+#### `A`は`B`と戦いながら雷に打たれた
+- 英語名: **`A` was struck by lightning whilst fighting `B`**
+
+## マグマブロック
+#### `A`は床が溶岩だったと気付いた
+- 英語名: **`A` discovered the floor was lava**
+
+#### `A`は`B`に妨害されて危険地帯に足を踏み入れた
+- 英語名: **`A` walked into danger zone due to `B`**
+
+## 魔法 (即時ダメージ・エヴォーカーの牙など)
+#### `A`は魔法で殺された
+- 英語名: **`A` was killed by magic**
+
+#### `A`は`B`から逃れようとして魔法で殺された
+- 英語名: **`A` was killed by magic whilst trying to escape `B`**
+
+#### `A`は`B`の魔法で殺された
+- 英語名: **`A` was killed by `B` using magic**
+
+#### `A`は`B`の`X`で殺された
+- 英語名: **`A` was killed by `B` using `X`**
+
+## 粉雪
+#### `A`は凍え死んだ
+- 英語名: **`A` froze to death**
+
+#### `A`は`B`によって凍え死んだ
+- 英語名: **`A` was frozen to death by `B`**
+
+## プレイヤー・Mob
+#### `A`は`B`に殺害された
+- 英語名: **`A` was slain by `B`**
+
+#### `A`は`B`の`X`で殺害された
+- 英語名: **`A` was slain by `B` using `X`**
+
+#### `A`は`B`に火だるまにされた
+- 英語名: **`A` was fireballed by `B`**
+
+#### `A`は`B`の`X`で火だるまにされた
+- 英語名: **`A` was fireballed by `B` using `X`**
+
+#### `A`は刺されて死んだ
+- 英語名: **`A` was stung to death**
+
+#### `A`は`B`の頭蓋骨に打たれた
+- 英語名: **`A` was shot by a skull from `B`**
+
+## 飢餓
+#### `A`は飢え死にした
+- 英語名: **`A` starved to death**
+
+#### `A`は`B`と戦いながら飢え死にした
+- 英語名: **`A` starved to death whilst fighting `B`**
+
+## 窒息
+#### `A`は壁の中で窒息した
+- 英語名: **`A` suffocated in a wall**
+
+#### `A`は`B`と戦いながら壁の中で窒息した
+- 英語名: **`A` suffocated in a wall whilst fighting `B`**
+
+#### `A`は押しつぶされた
+- 英語名: **`A` was squished too much**
+
+#### `A`は`B`に押しつぶされた
+- 英語名: **`A` was squashed by `B`**
+
+## スイートベリーの低木
+#### `A`はスイートベリーの棘が刺さって死んだ
+- 英語名: **`A` was poked to death by a sweet berry bush**
+
+#### `A`は`B`から逃げようとしてスイートベリーの棘が刺さって死んだ
+- 英語名: **`A` was poked to death by a sweet berry bush whilst trying to escape `B`**
+
+## 棘の鎧のエンチャント
+#### `A`は`B`を傷つけようとして殺された
+- 英語名: **`A` was killed trying to hurt `B`**
+
+#### `A`は`B`を傷つけようとして`X`に殺された
+- 英語名: **`A` was killed by `X` trying to hurt `B`**
+
+## トライデント
+#### `A`は`B`によって突き抜かれた
+- 英語名: **`A` was impaled by `B`**
+
+#### `A`は`B`の`X`で突き抜かれた
+- 英語名: **`A` was impaled by `B` with `X`**
+
+## 奈落
+#### `A`は奈落の底へ落ちた
+- 英語名: **`A` fell out of the world**
+
+#### `A`は`B`と同じワールドに住みたくなかった
+- 英語名: **`A` didn't want to live in the same world as `B`**
+
+## 衰弱
+#### `A`は干からびた
+- 英語名: **`A` withered away**
+
+#### `A`は`B`と戦いながら干からびた
+- 英語名: **`A` withered away whilst fighting `B`**
+
+## 乾燥
+#### `A`は脱水で死んだ
+- 英語名: **`A` died from dehydration**
+- 現時点では、名前付きのイルカかウーパールーパーが陸上で死んだ場合に表示される
+
+#### `A`は`B`から逃れようとして渇いて死んだ
+- 英語名: **`A` died from dehydration whilst trying to escape `B`**
+- 現時点では、名前付きのイルカかウーパールーパーが陸上で死んだ場合に表示される
+
+## 一般
+#### `A`は死んだ
+- 英語名: **`A` died**
+- ダメージタイプが割り当てられていないか`generic`である場合に表示される。  
+  通常プレイでは名前付きのミツバチに刺されて死んだ場合に表示される。
+
+#### `A`は`B`によって死んだ
+- 英語名: **`A` died because of `B`**
+- 同上
+
+## 送信不可能な死亡メッセージ
+*注: これらは技術的には表示可能だが、バニラではその条件を満たすことができない*
+
+#### `A`はドラゴンの息で炙り焼きにされた
+- 英語名: **`A` was roasted in dragon breath**
+- ダメージタイプ`dragonBreath`で死亡した場合に表示される。
+- 15w31aと15w31bにおいて、エンダードラゴンの火の玉で死亡した場合に表示されるものだったが、その後火の玉が直接ダメージを与えることは無くなったため使用されなくなった。
+- 詳細は[MC-84595](https://bugs.mojang.com/browse/MC-84595)を参照。
+
+#### `A`は`B`のドラゴンの息で炙り焼きにされた
+- 英語名: **`A` was roasted in dragon breath by `B`**
+- 同上
+
+## 未使用の死亡メッセージ
+*注: これらはJava Edition内にコードが無く、言語ファイルにのみ存在する*
+
+#### `A`は落ちる運命だった
+- 英語名: **`A` was doomed to fall**
+
+#### `A`は`B`に落とされる運命だった
+- 英語名: **`A` was doomed to fall by `B`**
+
+#### `A`は`B`の`X`で落とされる運命だった
+- 英語名: **`A` was doomed to fall by `B` using `X`**
+
+#### `A`は高いところから落下し、`B`によってとどめを刺された
+- 英語名: **`A` fell too far and was finished by `B`**
+
+#### `A`は高いところから落下し、`B`の`X`によってとどめを刺された
+- 英語名: **`A` fell too far and was finished by `B` using `X`**
+
+#### `A`は`B`に刺されて死んだ
+- 英語名: **`A` was stung to death by `B`**
+
+#### `A`は`B`と戦いながら花火の爆発に巻き込まれた
+- 英語名: **`A` went off with a bang whilst fighting `B`**
+
+#### `A`は魔法の奔流で殺された
+- 英語名: **`A` was killed by even more magic**
+
+## エラーメッセージ
+#### メッセージが長過ぎたため、配信することができませんでした。以下はその一部です：`Message`
+- 英語名: **Actually, message was too long to deliver fully. Sorry! Here's stripped version: `Message`**
