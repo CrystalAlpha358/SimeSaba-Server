@@ -577,13 +577,6 @@ Java Edition内の言語ファイルを元に自動生成したものを一部�
 #### `A`は`B`の`X`で射抜かれた
 - 英語名: **`A` was shot by `B` using `X`**
 
-## 雪玉
-#### `A`は`B`によってぺしゃんこにされた
-- 英語名: **`A` was pummeled by `B`**
-
-#### `A`は`B`の`X`でぺしゃんこにされた
-- 英語名: **`A` was pummeled by `B` using `X`**
-
 ## サボテン
 #### `A`はサボテンが刺さって死んだ
 - 英語名: **`A` was pricked to death**
@@ -748,6 +741,12 @@ Java Edition内の言語ファイルを元に自動生成したものを一部�
 
 #### `A`は刺されて死んだ
 - 英語名: **`A` was stung to death**
+
+#### `A`は`B`によってぺしゃんこにされた
+- 英語名: **`A` was pummeled by `B`**
+
+#### `A`は`B`の`X`でぺしゃんこにされた
+- 英語名: **`A` was pummeled by `B` using `X`**
 
 #### `A`は`B`の頭蓋骨に打たれた
 - 英語名: **`A` was shot by a skull from `B`**
