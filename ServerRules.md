@@ -1,5 +1,5 @@
 # 〆さば鯖 ルールブック
-Version 1.4c *(Update: 2021/08/26)*
+Version 1.5 *(Update: 2021/09/01)*
 
 - *[08/02 21:12]* 投票により、名称は**〆さば鯖**に決定しました！投票ありがとうございました。
 
@@ -346,6 +346,43 @@ Version 1.4c *(Update: 2021/08/26)*
   - エイリアス: `/lay`
   - 構文: `/glay`
   - 仰向けに寝ます。
+
+### AdvancedTeleport
+- `/warp` */advancedteleport:warp*
+  - 構文: `/warp <ワープ>`
+  - 指定したワープポイントへテレポートします。  
+    ディメンション間のワープもサポートされています。
+- `/warps` */advancedteleport:warps*
+  - 構文: `/warps`
+  - ワープポイントの一覧を表示します。
+- `/home` */advancedteleport:home*
+  - 構文: `/home [ホームポイント]`
+  - 指定したホームポイントへテレポートします。省略した場合はメインホームポイントへテレポートします。  
+    自分のベッドを指す`bed`がデフォルトで設定されています。
+- `/homes` */advancedteleport:homes*
+  - 構文: `/homes`
+  - ホームポイントの一覧を表示します。
+- `/sethome` */advancedteleport:sethome*
+  - 構文: `/sethome <ホームポイント名>`
+  - 自分の立っている場所を指定した名前のホームポイントに設定します。
+- `/delhome` */advancedteleport:delhome*
+  - 構文: `/delhome <ホームポイント>`
+  - 指定したホームポイントを削除します。
+- `/movehome` */advancedteleport:movehome*
+  - 構文: `/movehome <ホームポイント>`
+  - 指定したホームポイントを自分の立っている場所に移動します。
+- `/setmainhome` */advancedteleport:setmainhome*
+  - 構文: `/setmainhome <ホームポイント>`
+  - 指定したホームポイントをメインホームポイントとして設定します。
+- `/back` */advancedteleport:back*
+  - 構文: `/back`
+  - 直前に居た場所へ戻ります。
+- `/tpo` */advancedteleport:tpo*
+  - 構文: `/tpo <プレイヤー>`
+  - 自分自身を指定したプレイヤーにテレポートします。プレイヤーがオンラインである必要があります。
+- `/tpohere` */advancedteleport:tpohere*
+  - 構文: `/tpohere <プレイヤー>`
+  - 指定したプレイヤーを自分自身にテレポートします。プレイヤーがオンラインである必要があります。
 
 ### EditableSign
 - `/editsign` */editablesign:editsign*
@@ -762,33 +799,37 @@ Version 1.4c *(Update: 2021/08/26)*
 ### ショートカット
 このサーバーで使用できるショートカットコマンドです。  
 頻繁に追加・変更されるため最新ではない可能性があります。ご了承ください。  
-***各種テレポートコマンドはオーバーワールド以外での動作を保証しません！***
+***一部のテレポートコマンドはオーバーワールド以外での動作を保証しません！***
 
 - `/returntospawn`
   - エイリアス: `/q`
   - 構文: `/returntospawn`
-  - 元のコマンド: `/tp @s[type=player] -78.5 72.1 65.5 0.0 0.0`
+  - 元のコマンド: `/warp worldspawn`
   - ワールドの初期スポーン地点(から南東に1ブロックずれた場所)の座標へ移動します。
 - `/qq`
   - 構文: `/qq`
-  - 元のコマンド: `/tp @s[type=player] -154.5 66.1 240.5 0.0 0.0`
+  - 元のコマンド: `/warp storage-main`
   - 倉庫の前へ移動します。
 - `/qqq`
   - 構文: `/qqq`
-  - 元のコマンド: `/tp @s[type=player] -197.5 79.1 287.5 90.0 0.0`
+  - 元のコマンド: `/warp village-1`
   - 村へ移動します。
 - `/qw`
   - 構文: `/qw`
-  - 元のコマンド: `/tp @s[type=player] -9.5 66.1 199.5 180.0 25.0`
+  - 元のコマンド: `/warp iron-golem-farm`
   - ゴーレムトラップへ移動します。
 - `/qe`
   - 構文: `/qe`
-  - 元のコマンド: `/tp @s[type=player] -80.5 1.6 100.5 0.0 0.0`
+  - 元のコマンド: `/warp slime-farm`
   - スライムトラップへ移動します。
 - `/qr`
   - 構文: `/qr`
-  - 元のコマンド: `/tp @s[type=player] -21.0 40.1 20.0 -90.0 42.0`
+  - 元のコマンド: `/warp skeleton-farm`
   - スケルトントラップへ移動します。
+- `/qn`
+  - 構文: `/qn`
+  - 元のコマンド: `/warp nether-gate-main`
+  - ネザーゲートへ移動します。
 - `/z`
   - 構文: `/z`
   - 元のコマンド: `/titlemanager scoreboard toggle`
@@ -805,7 +846,8 @@ Version 1.4c *(Update: 2021/08/26)*
   - JEの進捗メニューを表示します。  
     詳細は[こちら](#Geyser)をご覧ください。
 - `/@`
-  - 構文: `/@`
+  - 構文: `/@`  
+    **廃止予定**
   - 元のコマンド: `/tp @s[type=player] 627.5 63.1 -30.5 -90.0 0.0`
   - X:627, Y:63, Z:-31 へ移動します。詳細は省略します。
 
@@ -1180,6 +1222,9 @@ Markdownには色を指定する方法が無いためHTMLタグを直接書く�
   - すごく多機能なサーバーMotdプラグイン
   - このサーバーでは日本語対応の簡潔化と再起動せずに反映できるからという理由でしか使っていない。  
     勿体無い？知らんな。
+- [AdvancedTeleport](https://www.spigotmc.org/resources/advancedteleport.64139/)
+  - 多機能なテレポートプラグイン
+  - まだよくわかってない
 - [ChatManager](https://www.spigotmc.org/resources/chat-manager-1-7-1-17-30-features-and-40-commands.52245/)
   - チャット管理・装飾・メッセージ変更プラグイン
   - 接続して一番最初に目にするプラグインだと思う。まあ見ての通り。  
